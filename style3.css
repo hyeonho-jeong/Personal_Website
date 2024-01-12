@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Oswald:wght@500&display=swap');
+
+/* begin*/
+*{
+    box-sizing: border-box;
+    /*화면 안의 크기가 화면 보다 넘어가지 않게 함*/
+    max-width: 1600px;
+}
+ 
+body{
+    font-family:Hind Siliguri, bradley Hand, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: antiquewhite;
+}
+
+img{
+    max-width: 100%;
+}
+
+.headoption{
+    border:#15b021 solid 8px;
+    margin: 10px;
+}
+
+.headoption2{
+    margin: 10px;
+}
+
+.headoption3{
+    margin: 10px;
+}
+
+/*header*/
+header{
+    background-color:#f7fff6; 
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+  
+.search {
+    position: relative;
+    width: 300px;
+    padding-top: 15px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+#logo{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration:none;
+    color:#15b097;
+    font-size: 40px;
+    font-family:Oswald;
+    
+}
+
+nav a:hover{
+    background-color:#db6c79;
+    color:#f7fff6;
+}
+
+/*footer*/
+
+footer{
+    background-color:#f7fff6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color:#3590f3;
+}
+
+footer a{
+    color:#15b097;
+    text-decoration:none;
+}
+
+footer a:hover{
+    background-color:#db6c79;
+    color:#f7fff6;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    #background{
+        background-color:darksalmon;
+    }
+    
+    .ticket{
+        border: 2px solid balck;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    /*main*/
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin:20px;
+    }
+    
+    .main1{
+        margin-top: 30px;
+        color:blue;
+       
+    }
+
+    .mainboxdiv{
+        border:solid black 3px;
+    }
+    
+    section{
+        grid-column: 1/2;
+       grid-row: 1/2; 
+       margin-right: 320px;
+    }
+    
+    .operate{
+        border: 2px solid black;
+        background-color: antiquewhite;
+    }
+    
+    .arrow{
+        width: 50px;
+    }
+    
+    .arrow:hover{
+        opacity: 2;
+        transform: scale(1.3);
+    }
+    
+    .passage{
+        border: 2px solid black;
+        background-color: antiquewhite;
+        margin: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .map{
+        height: 400px;
+        width: 800px; 
+    }
+    
+    .map:hover{
+        opacity: 2;
+        transform: scale(1.1);
+    }
+    
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .center{
+        text-align: center;
+        grid-column: 1/4;
+        font-size: 40px;
+    }
+    
+    /*footer*/
+    footer{
+        background-color:darkkhaki;
+        padding: 25px 50px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    footer h3{
+        color:lime;
+    }
+    
+    footer a{
+        color:deeppink;
+        text-decoration:none;
+    }
+    
+    footer a:hover{
+        color:bisque;
+    }
+    
+    footer .social img{
+        padding-top: 15px;
+    }
+    
+    
+    /* width*/
+    
+    .icon{
+        width:80px;
+        padding-top: 10px;
+    }
+    
+    .logo{
+        width:80px;
+    }
+    
+    
+    main section img{
+        box-sizing: border-box;
+    }
+    
+    /* @mdeia query*/
+    
+    
